@@ -1,0 +1,4 @@
+#!/bin/bash
+
+node_modules/.bin/rollup --config
+python -m http.server 8000
